@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:image",
-        content: "https://oaklandtheglobalschool.netlify.app/oak-hero.jpg",
+        content: "https://oakland.theglobalschool.workers.dev/oak-hero.jpg",
       },
       {
         name: "twitter:title",

@@ -76,11 +76,11 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       {
         property: "og:url",
-        content: "https://oaklandtheglobalschool.netlify.app/",
+        content: "https://oakland.theglobalschool.workers.dev/",
       },
       {
         property: "og:image",
-        content: "https://oaklandtheglobalschool.netlify.app/oak-hero.jpg",
+        content: "https://oakland.theglobalschool.workers.dev/oak-hero.jpg",
       },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
@@ -105,7 +105,7 @@ export const Route = createRootRoute({
       },
       {
         name: "twitter:image",
-        content: "https://oaklandtheglobalschool.netlify.app/oak-hero.jpg",
+        content: "https://oakland.theglobalschool.workers.dev/oak-hero.jpg",
       },
       {
         name: "twitter:image:alt",
@@ -124,7 +124,10 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap",
       },
-      { rel: "canonical", href: "https://oaklandtheglobalschool.netlify.app/" },
+      {
+        rel: "canonical",
+        href: "https://oakland.theglobalschool.workers.dev/",
+      },
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "apple-touch-icon",
@@ -154,9 +157,9 @@ export const Route = createRootRoute({
           name: "Oakland The Global School",
           description:
             "Premier preschool and daycare in Visakhapatnam offering Montessori-inspired early childhood education from Play Group to Grade 2.",
-          url: "https://oaklandtheglobalschool.netlify.app/",
-          logo: "https://oaklandtheglobalschool.netlify.app/oakland-logo.jpeg",
-          image: "https://oaklandtheglobalschool.netlify.app/oak-hero.jpg",
+          url: "https://oakland.theglobalschool.workers.dev/",
+          logo: "https://oakland.theglobalschool.workers.dev/oakland-logo.jpeg",
+          image: "https://oakland.theglobalschool.workers.dev/oak-hero.jpg",
           address: {
             "@type": "PostalAddress",
             streetAddress: "Sujatha Nagar, Pendurthi",
@@ -218,7 +221,7 @@ export const Route = createRootRoute({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Oakland The Global School",
-          url: "https://oaklandtheglobalschool.netlify.app/",
+          url: "https://oakland.theglobalschool.workers.dev/",
           description:
             "Premier preschool and daycare in Visakhapatnam offering Montessori-inspired early childhood education",
           publisher: {
@@ -228,7 +231,7 @@ export const Route = createRootRoute({
           potentialAction: {
             "@type": "SearchAction",
             target:
-              "https://oaklandtheglobalschool.netlify.app/search?q={search_term_string}",
+              "https://oakland.theglobalschool.workers.dev/search?q={search_term_string}",
             "query-input": "required name=search_term_string",
           },
         }),
