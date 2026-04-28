@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oaklandtheglobalschool.netlify.app/sitemap.xml
